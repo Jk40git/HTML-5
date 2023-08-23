@@ -1,0 +1,70 @@
+1. 30 tags and their meanings
+<!DOCTYPE> 	Defines the document type
+<abbr>	Defines an abbreviation or an acronym
+<br>	Defines a single line break
+<body>	Defines the document's body
+<button>	Defines a clickable button
+<div>	Defines a section in a document
+<p>	Defines a paragraph
+<span>	Defines a section in a document
+<style>	Defines style information for a document
+<u>	stands for underline
+<Span class="bold"></span> stands for bold text
+<i>	Defines a part of text in an alternate voice or mood (italicize text)
+<head>	Contains metadata/information for the document
+<ul> stands for unordered list
+<h1> to <h6>	Defines HTML headings
+<html>	Defines the root of an HTML document
+<img>	Defines an image
+<kbd>	Defines keyboard input
+<b> Bold Tag </b>
+Here the <b> and </b> are the HTML tags and “Bold Tag” is the HTML element, i.e. the on page text. 
+This tag will format any text between the opening <b> tag and the closing </b> tag as bold.
+<li>	Defines a list item
+<input>	Defines an input control
+<em>	Defines emphasized text 
+<dl>	Defines a description list
+<cite>	Defines the title of a work
+<blockquote>	Defines a section that is quoted from another source
+<title> Defines a title for the document
+<var>	Defines a variable
+<q>	Defines a short quotation
+<ins> Defines a text that has been inserted into a document
+<del>	Defines text that has been deleted from a document
+<time>	Defines a specific time (or datetime)
+<!--...-->	Defines a comment
+<audio>	Defines embedded sound content
+<footer>	Defines a footer for a document or section
+
+2. Technologies of making a website
+Browsers
+HTML and CSS
+Programming Languages
+Frameworks
+Web Servers
+Databases
+Protocols
+data Formats
+
+3. Difference between a website and a web application
+A Web application is a piece of software that can be accessed by the browser while
+a website is a colllection of html files that are stored on the world wide web
+Website basically contains static content and a web application is designed for interaction with end users.
+
+4. Principles of web application
+Web Application Development principles help developers create practical applications that meet their client's present 
+and future requirements and adjust to the progressively changing technology trends
+Being productive
+Building a quality application
+Always put the user first
+Use Tools
+Must be viewable through multiple types of screens
+Speedy apps win the race
+Security is not an add-on feature
+the customer's requests are the priority neither technology nor the developer's preferences
+Make processes, stateless, and store the data outside the Web application
+One codebase can accommodate multiple deployments during the web development cycle
+Explicitly declare and isolate dependencies for the software
+Separate configuration files and application code base
+All the variety of services your web app runs, have to stay detached
+Build, release, and run each software development stage separately
