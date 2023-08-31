@@ -1,0 +1,45 @@
+#red_box{
+    background-color: red;
+}
+
+#yellow_box{
+    background-color: yellow;
+}
+
+#green_box{
+    background-color: green;
+}
+
+.box{
+    width: 100px; 
+    height: 100px;
+}
+
+.rectangle{
+    width: 200px ;
+    height: 100px;
+}
+
+#blue_rec{
+    background-color: blue ;
+}
+#violet_rec{
+    background-color: violet;
+}
+#black_rec{
+    background-color: black;
+    color: white;
+}
+#brown_tri{
+	width: 0;
+	height: 0;
+	border: solid 40px;
+	border-color: transparent transparent brown transparent;
+}
+
+#red_tri{
+	width: 0;
+	height: 0;
+	border: solid 40px;
+	border-color: transparent transparent red transparent;
+}

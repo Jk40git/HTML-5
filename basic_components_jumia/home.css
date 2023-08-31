@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box; 
+    justify-content: center;
+}
+
+body{
+    background-color: #d8d5d5;
+ }
+
+.box{
+    height: 55px;
+    width: 100%;
+    background-color:#ff9500;
+
+}
+
+.top_sell{
+    height: 32px;
+}
+.nav_bar{
+    height: 68px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 170px;
+    
+}
+
+.img{
+    height: 55px;
+    width: 100%;
+    padding: 0px 190px 0px 190px;
+}
+#search_input{
+    margin-right: 20px;
+    height: 35px;
+}
+
+#search_button{
+    margin-right: 20px;
+    background-color: rgb(241, 135, 59);
+    color: white;
+    border: none;
+    padding: 10px; 
+}
+
+#logo{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+
+
+input{
+    width: 13cm;
+    height: 8cm;
+}
+
+#name, #help, #cart{
+    margin-right:30px
+}
+
+#container{
+    
+    margin-top: 16px;
+    display: flex; 
+    height: 400px;
+    width: 80%;
+}
+
+#category{
+    border-radius:5px;
+    background-color: white;
+    margin-right: 20px;
+    height: 400px;
+    width: 20%;
+
+}
+
+#side_sell{
+    border-radius:5px;
+    background-color: white;
+    width: 40%;
+    margin-right: 20px;
+}
+
+#info{
+    border-radius:5px;
+    width: 20%;
+}
+
+#first{
+    border-radius:5px;
+    height: 190px; 
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#second{
+    border-radius:5px;
+    height: 190px;
+    background-color: white;
+}
