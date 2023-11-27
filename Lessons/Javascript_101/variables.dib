@@ -1,0 +1,30 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"javascript","items":[{"aliases":[],"languageName":"javascript","name":"javascript"}]}}
+
+#!javascript
+
+let firstName = "John";
+firstName = "Jacob"
+console.log(firstName)
+
+#!javascript
+
+let firstName = "Jacob"
+let lastName = "Kondo"
+let email = "jacobkondo@gmail.com"
+let age = 41
+let salary = 25000.05
+
+
+// String concatenation
+
+console.log(firstName+ " " +lastName);
+
+// String interpolation
+console.log(`${firstName} ${lastName}`);
+
+
+console.log(age + salary);
+
+console.log (`My name is  ${firstName} ${lastName}, and I am ${age} years old, Email me on ${email}. My salary is ${salary}`);

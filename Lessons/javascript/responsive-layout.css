@@ -1,0 +1,48 @@
+nav{
+    /* background-color: red; */
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    margin:  10px;
+}
+
+nav > div.list-items{
+    display: inline-block;
+    margin: 5px;
+    /* background-color: blue; */
+    text-align: center;
+   
+}
+
+a.links{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(242, 152, 7);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ #show-mobile-nav{
+    display: none;
+}
+
+
+@media  (max-width:850px) {
+    #show-mobile-nav{
+        display: block;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    nav > div.list-items{
+        display: none;
+        text-align: left;
+    }
+}

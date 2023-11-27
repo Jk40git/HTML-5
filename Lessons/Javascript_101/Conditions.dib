@@ -1,0 +1,27 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"javascript","items":[{"aliases":[],"languageName":"javascript","name":"javascript"}]}}
+
+#!javascript
+
+let sentence = "The quick brown fox jumps over the lazy dog";
+
+if(sentence.length > 10){
+    sentence= sentence.replaceAll("o", "e")
+       console.log(sentence);
+}
+
+#!javascript
+
+// if,if-else and else statements
+
+const password = "0123";
+
+if(password.length > 8){
+    console.log("condition 1 : checking length of password");
+}else if(password.match(/[A-Z]/g)){
+    console.log("condition 2 : checking if contains capital letter");
+}else{
+    // this is the last resort
+    console.log("when all condition is false 1");
+}

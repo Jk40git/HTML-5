@@ -1,0 +1,82 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"javascript","items":[{"aliases":[],"languageName":"javascript","name":"javascript"}]}}
+
+#!javascript
+
+// Define a class
+class User {
+    firstName;
+    lastName;
+    gender;
+
+    constructor(firstName,lastName,gender){
+         this.firstName = firstName;
+         this.lastName = lastName;
+         this.gender = gender;
+     }
+
+    fullName(){
+        console.log(`${this.firstName} ${this.lastName}`);
+    }
+
+    checkGender(){
+     
+        switch(this.gender){
+            case 'm':
+                console.log(this.firstName + " is a male");
+            break;
+            case 'f':
+                console.log(this.firstName + " is a female");
+            break;
+            default:
+                console.log("Gender is unknown");
+            break;
+        }
+    }
+
+
+}
+
+// Instantiate a class
+const user1 = new User("John","Doe",'m');
+
+// Assign value to property firstName of class User
+// user1.firstName = "John";
+
+
+
+user1.checkGender();
+
+#!javascript
+
+class Person {
+    firstName;
+    lastName;
+    gender;
+
+    constructor(){
+        
+    }
+
+    fullName(){
+        console.log(`${this.firstName} ${this.lastName} ${this.gender}`);
+    }
+}
+
+// Inheritance
+class User extends Person {
+    
+    constructor(firstName,lastName,gender){
+        super(); // run the parent constructor method
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+     }
+
+}
+
+const user1 = new User("Hindolo","Sam","m");
+
+user1.fullName();

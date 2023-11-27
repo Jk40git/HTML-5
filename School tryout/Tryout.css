@@ -8,7 +8,6 @@
 .navbar{
     width: 100%;
     height: 5rem;
-    border: 1px solid black;
     background-color: blue;
 }
 .navlist{
@@ -28,8 +27,10 @@
     width: 100%;
     background-color: azure;
     margin-top: 15px;
-    border: 1px solid black;
-    background-image: url("C:\Users\JK\Pictures\Data-Analytics-What-is-Data-Analytics-Edureka-1.jpg");
+    border: 0.15px solid black;
+    background-image: url("Data-Analytics-What-is-Data-Analytics-Edureka-1.jpg");
+    background-attachment: fixed;
+
 }
 .content1{
     height: 250px;
@@ -41,14 +42,13 @@
     width: 35% ;
     height: 250px;
     background-color: green;
-    border: 1px solid black;
 }
 .sq{
     width: 35% ;
     height: 250px;
     background-color: green;
     margin-left :14px;
-    border: 1px solid black;
+
 
 }
 
@@ -57,7 +57,6 @@
     height: 190px;
     background-color:rgb(4, 4, 48);
     margin-top: 15px;
-    border:  1px solid black;
     display: flex;
 }
 

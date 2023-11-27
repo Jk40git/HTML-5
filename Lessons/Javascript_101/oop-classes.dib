@@ -1,0 +1,52 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"javascript","items":[{"aliases":[],"languageName":"javascript","name":"javascript"}]}}
+
+#!javascript
+
+class User {
+    username;
+    password;
+
+   login(username,password){
+
+       console.log("you are about to login");
+       return false;
+   }
+
+
+}
+
+
+class Employee extends User{
+
+   login(username,password,phone){
+       console.log("Provide phone number");
+       console.log("employee is about to login ");
+
+       return false;
+   }
+}
+
+class Student extends User{
+
+   login(studentId,password){
+       console.log("Provide student id");
+       console.log("Student is about to login ");
+
+       if(studentId === '1234' && password === 'password'){
+        return true
+       }
+
+       return false;
+   }
+}
+
+
+const employee1 = new Employee();
+
+
+if(employee1.login('sam4work','password')){
+
+    console.log("redirect to dashboard")
+}

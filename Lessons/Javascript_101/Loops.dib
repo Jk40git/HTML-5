@@ -1,0 +1,137 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"javascript","items":[{"aliases":[],"languageName":"javascript","name":"javascript"}]}}
+
+#!javascript
+
+const daysofTheWeek = [ 
+    "Sunday", "Monday", " Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+
+ ];
+
+ let count = 0;
+    While ( ) 
+
+
+    // multi-value variable
+
+    // short method for creating an object
+ let userObject = {
+    firstName: "Sam",
+    lastName: "Johnny",
+    email: "sam@gmail.com",
+    age: 44,
+    salary: 50.00
+};
+
+// This is an array
+// Start counting from 0
+// index of array is always (items number - 1)
+// Value inside of array is called an element / items
+
+// Create array - method 1
+let daysOfTheWeek = [
+    "Sunday","Monday","Tuesday", "Wednesday", "Thursday","Friday","Saturday"
+]
+
+// Counts the number of elements / items in an array
+const totalDays = daysOfTheWeek.length
+
+// Create array - method 2
+// let daysOfTheWeek = new Array();
+// daysOfTheWeek[0] = "Sunday";
+// // daysOfTheWeek.push("Sunday")
+
+
+console.log(
+    "Days of the week are " + daysOfTheWeek.length
+)
+
+const daysOfTheWeek = [
+    "Sunday", "Monday","Tuesday", "Wednesday", "Thursday","Friday","Saturday"
+];
+
+
+// While loops
+
+let count = 1;
+//  While uses a condition to execute code within curl braces
+while(count < daysOfTheWeek.length){
+
+    console.log( count +" "+ daysOfTheWeek[count]);
+    // count++; // adding 1 to count's existing values - method 1
+    count = count + 1; // adding 1 to count's existing values - method 1
+    
+    if(count == daysOfTheWeek.length){
+        console.log( count +" "+ daysOfTheWeek[0]);
+    }
+}
+
+
+
+const daysOfTheWeek = [
+    "Sunday", "Monday","Tuesday", "Wednesday", "Thursday","Friday","Saturday"
+];
+
+
+// While loops
+
+// let count = 0;
+
+// //  While uses a condition to execute code within curl braces
+// while(count < daysOfTheWeek.length){
+
+//     console.log( count +" "+ daysOfTheWeek[count]);
+//     count++; // adding 1 to count's existing values - method 1
+//     // count = count + 1; // adding 1 to count's existing values - method 1
+// }
+
+
+// initialize ; condition ; increment / decrement
+for(let count = 0;count < daysOfTheWeek.length; count++){
+    console.log( count +" "+ daysOfTheWeek[count]);
+}
+
+daysOfTheWeek.map((day) => console.log( count +" "+ daysOfTheWeek[count]))
+
+#!javascript
+
+const daysOfTheWeek = [
+    "Sunday", "Monday","Tuesday", "Wednesday", "Thursday","Friday","Saturday"];
+
+for(let count = 0;count < daysOfTheWeek.length; count++){
+    console.log( count +" "+ daysOfTheWeek[count]);}
+
+daysOfTheWeek.map((day) => console.log( count +" "+ daysOfTheWeek[count]))
+
+#!javascript
+
+let weekDays = [];
+
+let weekEndDays = new Array()
+
+weekEndDays.push("Saturday");
+weekEndDays[1] = "Sunday";
+
+console.log(
+ weekEndDays
+);
+
+#!javascript
+
+const daysOfTheWeek = [
+    "Sunday", "Monday","Tuesday", "Wednesday", "Thursday","Friday","Saturday"
+];
+
+let count = 0;
+while (count < daysOfTheWeek.length){
+    console.log( count + " " + daysOfTheWeek[count]);
+    count++;
+}
+
+#!javascript
+
+let footBallTeams = [ "PSG", "Bayern Munich", "Man Utd", "Man City", "Arsenal"];
+
+console.log(footBallTeams.filter(team => team.includes("an")) )
+// console.log(footBallTeams.includes("an"))
